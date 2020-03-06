@@ -42,11 +42,11 @@ public class LevelVote extends Addon {
 
 
             configFile.set("topics.weather.command", "weather {state}");
-            configFile.set("topics.weather.parameters", new ArrayList<>(Arrays.asList("Rain", "Thunder", "Clear")));
+            configFile.set("topics.weather.parameters", new ArrayList<>(Arrays.asList("rain", "thunder", "clear")));
             configFile.set("topics.weather.usage", "Vote for ideal weather");
 
             configFile.set("topics.time.command", "time set {state}");
-            configFile.set("topics.time.parameters", new ArrayList<>(Arrays.asList("Day", "Night")));
+            configFile.set("topics.time.parameters", new ArrayList<>(Arrays.asList("day", "night")));
             configFile.set("topics.time.usage", "Vote for current time");
 
 
