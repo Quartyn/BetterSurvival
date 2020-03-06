@@ -56,7 +56,7 @@ public class LevelVote extends Addon {
 
     @Override
     public boolean preLoad() {
-        this.voteTopics = new ArrayList<>(configFile.getSection("Topics").getKeys(false));
+        this.voteTopics = new ArrayList<>(configFile.getSection("topics").getKeys(false));
         return true;
     }
 
